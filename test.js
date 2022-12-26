@@ -5,6 +5,7 @@ const LERNA_DIR = path.join(__dirname, 'fixture/lerna');
 const YARN_DIR_1 = path.join(__dirname, 'fixture/yarn');
 const YARN_DIR_2 = path.join(__dirname, 'fixture/yarn-2');
 const BOLT_DIR = path.join(__dirname, 'fixture/bolt');
+const PNPM_DIR = path.join(__dirname, 'fixture/pnpm');
 
 expect.addSnapshotSerializer({
   test: value =>
@@ -29,6 +30,10 @@ describe('getPackages()', () => {
 
   test('bolt matches snapshot', () => {
     expect(getPackages(BOLT_DIR)).toMatchSnapshot();
+  });
+
+  test('pnpm matches snapshot', () => {
+    expect(getPackages(PNPM_DIR)).toMatchSnapshot();
   });
 
   test('returns empty array when no packages', () => {
