@@ -1,28 +1,33 @@
-# `get-monorepo-packages`
+# `list-monorepo-packages`
 
-[![Travis](https://img.shields.io/travis/azz/get-monorepo-packages.svg?style=flat-square)](https://travis-ci.org/azz/get-monorepo-packages)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/stable-master/list-monorepo-packages/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/stable-master/list-monorepo-packages/tree/main)
 [![Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![npm](https://img.shields.io/npm/v/get-monorepo-packages.svg?style=flat-square)](https://npmjs.org/get-monorepo-packages)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
 
-Get a list of packages from a monorepo. Supports:
+## Forked from https://github.com/azz/get-monorepo-packages
+
+Get a list of packages from a monorepo. Upgraded to latest dependencies, modern ESM support (as at 2023-01-01) and adds Typescript and PNPM support.
+
+Supports:
 
 - [Lerna](https://github.com/lerna/lerna)
 - [Yarn workspaces](https://yarnpkg.com/lang/en/docs/workspaces/)
 - [Bolt](http://boltpkg.com/)
+- [PNPM](https://pnpm.io/)
 
 ## Install
 
 ```bash
-npm install --save get-monorepo-packages
+npm install --save list-monorepo-packages
 ```
 
 ## Usage
 
 ```js
-import getPackages from 'get-monorepo-packages';
-getPackages('/path/to/root');
+import listPackages from 'list-monorepo-packages';
+await getPackages('/path/to/root');
 ```
 
 Returns an array of objects containing:

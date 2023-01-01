@@ -1,6 +1,6 @@
 {
   "name": "list-monorepo-packages",
-  "version": "2.0.0",
+  "version": "2.0.3",
   "description": "List all the packages from a monorepo",
   "keywords": [
     "yarn",
@@ -9,13 +9,17 @@
     "pnpm"
   ],
   "files": [
-    "index.js"
+    "index.ts",
+    "README.md",
+    "/dist"
   ],
   "engines": {
     "node": ">=14.16"
   },
   "type": "module",
-  "source": "src/listMonorepoPackages.js",
+  "types": "./dist/index.d.ts",
+  "main": "./dist/listMonorepoPackages.umd.js",
+  "source": "index.ts",
   "exports": {
     "require": "./dist/listMonorepoPackages.cjs",
     "default": "./dist/listMonorepoPackages.modern.js"
