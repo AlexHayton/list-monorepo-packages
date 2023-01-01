@@ -1,6 +1,6 @@
 {
   "name": "list-monorepo-packages",
-  "version": "2.0.17",
+  "version": "2.0.18",
   "description": "List all the packages from a monorepo",
   "keywords": [
     "yarn",
