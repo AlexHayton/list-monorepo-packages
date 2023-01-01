@@ -1,6 +1,6 @@
 # `list-monorepo-packages`
 
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/alexhayton/list-monorepo-packages/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/alexhayton/list-monorepo-packages/tree/main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/AlexHayton/list-monorepo-packages/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/AlexHayton/list-monorepo-packages/tree/main)
 [![Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![npm](https://img.shields.io/npm/v/list-monorepo-packages.svg?style=flat-square)](https://npmjs.org/list-monorepo-packages)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
