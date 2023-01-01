@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getPackages() bolt matches snapshot 1`] = `
+[
+  {
+    "location": "fixture/bolt/packages/bar",
+    "package": {
+      "name": "bar-workspace-package",
+      "version": "1.0.0",
+    },
+  },
+  {
+    "location": "fixture/bolt/packages/foo",
+    "package": {
+      "name": "foo-workspace-package",
+      "version": "1.0.0",
+    },
+  },
+]
+`;
+
+exports[`getPackages() lerna matches snapshot 1`] = `
+[
+  {
+    "location": "fixture/lerna/packages/bar",
+    "package": {
+      "name": "bar",
+    },
+  },
+  {
+    "location": "fixture/lerna/packages/foo",
+    "package": {
+      "name": "foo",
+    },
+  },
+]
+`;
+
+exports[`getPackages() pnpm matches snapshot 1`] = `
+[
+  {
+    "location": "fixture/pnpm/packages/bar",
+    "package": {
+      "name": "bar",
+      "version": "0.0.0",
+    },
+  },
+  {
+    "location": "fixture/pnpm/packages/foo",
+    "package": {
+      "name": "foo",
+      "version": "0.0.0",
+    },
+  },
+]
+`;
+
+exports[`getPackages() yarn 1.4.2+ matches snapshot 1`] = `
+[
+  {
+    "location": "fixture/yarn-2/packages/bar",
+    "package": {
+      "name": "bar",
+      "version": "0.0.0",
+    },
+  },
+  {
+    "location": "fixture/yarn-2/packages/foo",
+    "package": {
+      "name": "foo",
+      "version": "0.0.0",
+    },
+  },
+  {
+    "location": "fixture/yarn-2/package-2",
+    "package": {
+      "name": "package-2",
+      "version": "0.0.0",
+    },
+  },
+]
+`;
+
+exports[`getPackages() yarn matches snapshot 1`] = `
+[
+  {
+    "location": "fixture/yarn/packages/bar",
+    "package": {
+      "name": "bar",
+      "version": "0.0.0",
+    },
+  },
+  {
+    "location": "fixture/yarn/packages/foo",
+    "package": {
+      "name": "foo",
+      "version": "0.0.0",
+    },
+  },
+  {
+    "location": "fixture/yarn/packages/with-node_modules",
+    "package": {
+      "name": "with-node_modules",
+      "version": "0.0.0",
+    },
+  },
+  {
+    "location": "fixture/yarn/package-2",
+    "package": {
+      "name": "package-2",
+      "version": "0.0.0",
+    },
+  },
+]
+`;

@@ -8,9 +8,9 @@
 
 Get a list of packages from a monorepo. Supports:
 
-* [Lerna](https://github.com/lerna/lerna)
-* [Yarn workspaces](https://yarnpkg.com/lang/en/docs/workspaces/)
-* [Bolt](http://boltpkg.com/)
+- [Lerna](https://github.com/lerna/lerna)
+- [Yarn workspaces](https://yarnpkg.com/lang/en/docs/workspaces/)
+- [Bolt](http://boltpkg.com/)
 
 ## Install
 
@@ -27,5 +27,5 @@ getPackages('/path/to/root');
 
 Returns an array of objects containing:
 
-* `location` - The relative path to the package.
-* `package` - The `package.json` file for the package.
+- `location` - The relative path to the package.
+- `package` - The `package.json` file for the package.
