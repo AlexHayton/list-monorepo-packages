@@ -6,7 +6,7 @@ version: 2
 
 defaults: &defaults
   docker:
-    - image: cimg/node:18
+    - image: cimg/node:lts
 
 jobs:
   test:
