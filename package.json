@@ -35,7 +35,7 @@
     "build": "microbundle",
     "dev": "microbundle watch",
     "lint": "xo --env jest",
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "dependencies": {
     "globby": "^13.1.3",
